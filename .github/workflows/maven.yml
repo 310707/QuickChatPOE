@@ -21,5 +21,5 @@ jobs:
         cache: maven
         
     - name: Build with Maven
-      working directory:  ./ChatAppPart1
+      working-directory:  directory:  ./ChatAppPart1
       run: mvn clean test
